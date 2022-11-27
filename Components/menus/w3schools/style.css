@@ -1,0 +1,32 @@
+/* w3schools menu styles */
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 50px;
+  margin: 0 1rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav-link {
+  padding: 2.5rem 3rem;
+}
+
+.main-nav-link:hover {
+  background-color: #04aa6d;
+  color: #fff;
+}

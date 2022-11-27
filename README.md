@@ -35,4 +35,8 @@ We use some general practices to develope our codes e.g. `general.css` file that
 
 See [assets.md](./assets.md)
 
+### Components
+
+- [Menus](./menu.md)
+
 Please feel free to contribute.
