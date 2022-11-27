@@ -11,7 +11,7 @@ Using [TypeScale](https://type-scale.com/?size=10&scale=1.250&text=A%20Visual%20
 
 <img src="assets/major third 1.250 base 10px inter w400.jpg" alt="type scale major third 1.250 base 10px inter w400" width="600px">
 
-**Font sizes (px)**
+**Font sizes (px)** - _we use rem_
 
 `10 / 12 / 16 / 20 / 24 / 30 / 38 / 48 / 60`
 
@@ -35,13 +35,17 @@ Headings : `0.9 - 1.1`
 
 Headings: `-0.5px`
 SubHeadings, Paragraphs: `0.75px`
+
+**Spacing system (px)** - _we use rem_
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 <details>
 <summary><strong>CSS Code</strong></summary>
 
 ```css
 /*
-**Font sizes (px)**
+**Font sizes (px) - we use rem**
 
 `10 / 12 / 16 / 20 / 24 / 30 / 38 / 48 / 60`
 
@@ -65,6 +69,10 @@ Headings : `0.9 - 1.1`
 
 Headings: `-0.5px`
 SubHeadings, Paragraphs: `0.75px`
+
+**Spacing system (px) - we use rem/em**
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
 
