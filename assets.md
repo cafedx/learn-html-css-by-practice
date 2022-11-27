@@ -167,6 +167,10 @@ p {
 
 - [Unsplash](https://unsplash.com/s/photos/frontend)
 
+### Resize/Compress images online
+
+- [Squoosh](https://squoosh.app)
+
 ---
 
 ## Colors:
