@@ -2,7 +2,7 @@
 
 ## Typography system
 
-Using [TypeScale](<[TypeScale](https://type-scale.com/?size=10&scale=1.250&text=A%20Visual%20Type%20Scale&font=Inter&fontweight=400&bodyfont=body_font_default&bodyfontweight=400&lineheight=1.75&backgroundcolor=%23ffffff&fontcolor=%23000000&preview=false)>), we are able to develop a persistent font-size across whole projects.
+Using [TypeScale](https://type-scale.com/?size=10&scale=1.250&text=A%20Visual%20Type%20Scale&font=Inter&fontweight=400&bodyfont=body_font_default&bodyfontweight=400&lineheight=1.75&backgroundcolor=%23ffffff&fontcolor=%23000000&preview=false), we are able to develop a persistent font-size across whole projects.
 
 - Base `font-size: 62.5%` - 10px
 - Scale `1.250 Major Third`
@@ -67,7 +67,6 @@ Headings: `-0.5px`
 SubHeadings, Paragraphs: `0.75px`
 
 */
-
 
 @import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700");
 
