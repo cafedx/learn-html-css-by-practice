@@ -25,6 +25,14 @@ Our goal is to learn step-by-step how to create an enterprise-level online store
 
 <img src="assets/zishop.jpg" alt="zi-shop">
 
-Here, we will implement simple, medium, and complicated ones.
+Here, we will implement simple, medium, and complicated ones and We use
+
+### How we are going to implement?
+
+We use some general practices to develope our codes e.g. `general.css` file that consists our `style-guide` and css reset which we import every where we need it.
+
+### StyleGuide Assets
+
+See [assets.md](./assets.md)
 
 Please feel free to contribute.

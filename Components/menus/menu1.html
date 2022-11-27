@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700");
+
+      html {
+        font-size: 62.5%; /* 10px */
+      }
+
+      body {
+        /* 
+  All child elements will inherit these typographies but some elements like button
+   */
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1; /*Reset line-height*/
+        letter-spacing: 0.75px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        line-height: 0.9; /* 0.9- 1.1*/
+      }
+
+      h1 {
+        font-size: 4.8rem;
+      }
+
+      h2 {
+        font-size: 3.8rem;
+      }
+
+      h3 {
+        font-size: 3rem;
+      }
+
+      h4 {
+        font-size: 2.4rem;
+      }
+
+      h5 {
+        font-size: 2rem;
+      }
+
+      small,
+      .text_small {
+        font-size: 1rem;
+      }
+
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        /*  These have user agent styles, so we should manually set inherit*/
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+      }
+      p {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <h1>Hello world</h1>
+    <h2>Hello world</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod
+      dignissimos saepe unde blanditiis praesentium dolorem, vero ipsa
+      voluptatem autem dolores eum. Id amet earum ullam magni eius illo
+      excepturi.
+    </p>
+    <button>Click me</button>
+  </body>
+</html>
