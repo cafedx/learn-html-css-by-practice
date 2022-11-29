@@ -1,32 +1,78 @@
 /* w3schools menu styles */
+/* General Styles */
 a:link,
 a:visited {
   text-decoration: none;
   color: inherit;
 }
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+.btn {
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  padding: 1.5rem 2.5rem;
+  border-radius: 2rem;
+}
+.btn-icon {
+  background-color: transparent;
+  padding: 1rem;
+}
+.btn-icon .icon:hover {
+  fill: #04aa6d;
+}
+.bg-dark {
+  background-color: #282a35;
+  color: #fff;
+}
+.bg-pink {
+  background-color: #ffc0c7;
+}
+.bg-yellow {
+  background-color: #fff4a3;
+}
+.bg-green {
+  background-color: #04aa6d;
+  color: #fff;
+}
 
+/* Component specific styles */
+.logo {
+  max-width: 50px;
+  margin: 0 1rem;
+}
 .menu {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin: 0 auto;
+  padding: 0 1rem;
 }
-
-.logo {
-  max-width: 50px;
-  margin: 0 1rem;
-}
-
-.main-nav-list {
+.main-nav-list,
+.nav-actions,
+.secondary-nav {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-nav-link {
+  /* We set display block and padding on a:link to make the whole li clickable, not just the center of it which is the tag a */
+  display: block;
   padding: 2.5rem 3rem;
 }
 
 .main-nav-link:hover {
   background-color: #04aa6d;
   color: #fff;
+}
+.nav-actions {
+  margin-left: auto;
+  gap: 1rem;
+}
+
+.secondary-nav {
+  gap: 1rem;
 }
