@@ -10,7 +10,6 @@ a:visited {
   height: 2rem;
 }
 .btn {
-  font-weight: 500;
   border: none;
   cursor: pointer;
   padding: 1.5rem 2.5rem;
@@ -55,13 +54,18 @@ a:visited {
 .secondary-nav {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-.main-nav-link {
+.main-nav-link a {
+  font-weight: 600;
+  letter-spacing: 0.75px;
   /* We set display block and padding on a:link to make the whole li clickable, not just the center of it which is the tag a */
   display: block;
   padding: 2.5rem 3rem;
+}
+.burger-menu {
+  display: none;
 }
 
 .main-nav-link:hover {
@@ -75,4 +79,39 @@ a:visited {
 
 .secondary-nav {
   gap: 1rem;
+}
+
+/* responsive */
+
+@media (width<=1400px) {
+  .main-nav-link a {
+    padding: 2rem;
+  }
+  .menu,
+  .nav-actions,
+  .secondary-nav {
+    gap: 0.5rem;
+  }
+  .secondary-nav .btn:not(:last-of-type) {
+    display: none;
+  }
+}
+@media (width<=800px) {
+  .main-nav-link:not(:first-of-type) {
+    display: none;
+  }
+  .burger-menu {
+    display: initial;
+  }
+}
+@media (width<=480px) {
+  .main-nav-link a {
+    padding: 1rem;
+  }
+  .btn-icon {
+    padding: 1rem 0.5rem;
+  }
+  .theme {
+    display: none;
+  }
 }
